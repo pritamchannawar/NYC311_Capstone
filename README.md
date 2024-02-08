@@ -17,11 +17,21 @@ Every day, an extensive dataset captures information about thousands of 311 call
 
 Key Findings:
 •	“Illegal Parking” is the most frequent complaint type.
-   
+
+<img width="242" alt="image" src="https://github.com/pritamchannawar/NYC311_Capstone/assets/3954461/78d8f418-1bc4-4ec9-be0c-6ff29b813fb8">
+
+<img width="221" alt="image" src="https://github.com/pritamchannawar/NYC311_Capstone/assets/3954461/b3956822-7d36-4510-ad54-da6528044977">
+
 •	The Brooklyn is the most affected borough by this complaint type, and it has registered the highest volume of complaints among all the boroughs.
+
+<img width="304" alt="image" src="https://github.com/pritamchannawar/NYC311_Capstone/assets/3954461/df51783f-9efb-4d84-a1c9-5b6cb10d7c91">
+
  
 •	There is total 14 agencies to handle these calls, the New York Police Department (NYPD) responded to just over 50% of all 311 calls.
 •	Most of the calls were made in afternoon.
+
+<img width="243" alt="image" src="https://github.com/pritamchannawar/NYC311_Capstone/assets/3954461/aa40ef89-1bdc-4c21-b0a2-02291b29684f">
+
  
 •	Calls to the NYPD, which include all complaints, peak at the earliest and latest hours of the day.
 •	Illegal parking and Noise-related complaints comprised the overwhelming majority of calls each month.
