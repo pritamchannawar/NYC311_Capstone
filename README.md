@@ -29,6 +29,22 @@ Key Findings:
 We build a model that can accurately predict the type of complaint based on the time of day and the city where the complaint was filed. The XGB classifier (accuracy ~ 72%) performs same as the Logistic regression classifier (accuracy ~ 72%). Another goal of this project is to build a linear model that can accurately predict total time taken to resolve a call based on Hour at which call is received at the Agency, given a set of observations of an independent variable Hour at which call is received and a dependent variable total time. The linear regression model has performed the best with root mean square error (RMSE) 0.25.
 
 Finally, with all the findings and leveraging natural language processing and the Keras library, the project aims to construct a neural network capable of classifying the responding government agency based on the call's description. 
+
+<img width="460" alt="image" src="https://github.com/pritamchannawar/NYC311_Capstone/assets/3954461/07863f21-7d5d-44b0-b138-2ac1bbf3c69b">
+
  
 Accuracy and loss curves show that the model began to learn at a mostly steady rate after about 50 epochs. The best-performing model had ~92% accuracy on the test data and 67.2% accuracy on the random subset. It performed most successfully on calls assigned to the NYPD, HBD and DPR, although the agency variable exhibited substantial imbalance, with the NYPD responding to slightly over 50% of all 311 calls. The dataset encompassed 14 government agencies assigned to 311 calls, posing challenges in achieving perfect classifier accuracy. Currently, non-emergency service requests predominantly rely on phone calls; however, the development of such a classifier could streamline the automatic assignment of requests to the appropriate agency in an online context where requests generate text descriptions.
-![image](https://github.com/pritamchannawar/NYC311_Capstone/assets/3954461/8c036733-18f8-42a8-b3c4-a21f5cd3641f)
+
+
+## Recommendations:
+* Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. This potential application would require training on a larger, more varied set of descriptors. 
+* Agencies should be attentive to how call volume tends to change based on certain temporal, geographic, and environmental factors. Many of these changes are intuitively expected: widespread tree damage following major weather events, noise calls peaking in the middle of the night, and overall call volume remaining consistently high in the most densely populated borough, Manhattan. 
+* Given that the majority of non-emergency requests are responded to by the same agency responsible for emergency requests, local stakeholders may wish to evaluate whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. Amid growing concerns that law enforcement officers are over-utilized for intervention in non-emergency situations, this could be a fruitful area for further inquiry.
+
+## Limitations & Next Steps
+
+The input variable, call descriptor, consisted of just over 800 unique string values before preprocessing. The model has only been trained, therefore, to recognize a relatively limited set of words that may appear in service request descriptions. Training on a larger and more diverse set of descriptions could enhance the model's ability to match descriptions with a responding agency. 
+
+### For further information
+
+For any additional questions, please contact me at [channawar.pritam@gmail.com](mailto:channawar.pritam@gmail.com) or via my [LinkedIn profile](https://www.linkedin.com/in/pritam-channawar-8a816b7a/).
